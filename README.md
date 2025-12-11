@@ -1,7 +1,7 @@
 #  Chatbot E-Commerce (Tugas UAS)
 
 Proyek ini adalah Chatbot cerdas untuk melayani pelanggan toko online secara otomatis.
-Dibuat untuk memenuhi tugas UAS Mata Kuliah [Nama Matkul].
+Dibuat untuk memenuhi tugas UAS Mata Kuliah Pengantar Kecerdasan Buatan.
 
 ## Anggota Kelompok
 1. Aliya Arta Paramita Purnomo (M0125005)
