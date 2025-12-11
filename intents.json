@@ -1,0 +1,29 @@
+{
+  "intents": [
+    {
+      "tag": "salam",
+      "patterns": ["Halo", "Hi", "Pagi", "Siang", "Malam", "Permisi", "Min"],
+      "responses": ["Halo! Selamat datang di Toko Kami. Ada yang bisa dibantu?", "Hi! Silakan tanya seputar produk kami."]
+    },
+    {
+      "tag": "stok",
+      "patterns": ["Apakah barang ini ready?", "Stok masih ada?", "Apakah tersedia?", "Barang ini ada warnanya apa aja?"],
+      "responses": ["Barang ready stock siap kirim, Kak!", "Stok tersedia dalam berbagai ukuran dan warna."]
+    },
+    {
+      "tag": "pengiriman",
+      "patterns": ["Kirim ke Jakarta berapa lama?", "Ongkirnya berapa?", "Pakai ekspedisi apa?", "Kapan barang dikirim?"],
+      "responses": ["Pengiriman dilakukan H+1 setelah pembayaran. Kami menggunakan JNE dan J&T.", "Estimasi pengiriman 2-3 hari kerja untuk wilayah Jabodetabek."]
+    },
+    {
+      "tag": "pembayaran",
+      "patterns": ["Bisa COD?", "Bayar pakai apa?", "Nerima transfer bank?", "Cara bayarnya gimana?"],
+      "responses": ["Kami menerima pembayaran via Transfer Bank (BCA/Mandiri) dan E-Wallet (GoPay/OVO).", "Mohon maaf saat ini belum bisa COD."]
+    },
+    {
+      "tag": "terimakasih",
+      "patterns": ["Makasih", "Thanks", "Terima kasih infonya", "Oke makasih min"],
+      "responses": ["Sama-sama! Ditunggu orderannya ya.", "Senang bisa membantu!"]
+    }
+  ]
+}
