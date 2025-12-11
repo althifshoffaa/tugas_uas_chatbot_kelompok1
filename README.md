@@ -18,6 +18,8 @@ Dibuat untuk memenuhi tugas UAS Mata Kuliah Pengantar Kecerdasan Buatan.
    ```bash
    pip install scikit-learn nltk streamlit
 2. Latih model
-    python train_bot.py
+   ```bash
+   python train_bot.py
 3. Jalankan aplikasi
-    python -m streamlit run app.py
+   ```bash
+   python -m streamlit run app.py
