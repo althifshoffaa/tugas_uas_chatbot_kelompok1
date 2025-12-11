@@ -52,7 +52,7 @@ def get_response(tag, intents_json):
 # --- TAMPILAN WEB (STREAMLIT) ---
 st.set_page_config(page_title="E-Commerce Bot", page_icon="🛍️")
 
-st.title("🛍️ Chatbot Toko Online")
+st.title("Shoffle")
 st.write("Silakan tanya stok, pengiriman, atau pembayaran.")
 
 # Simpan riwayat chat
@@ -65,7 +65,7 @@ for message in st.session_state.messages:
         st.markdown(message["content"])
 
 # Input User
-if prompt := st.chat_input("Ketik pesan Anda di sini..."):
+if prompt := st.chat_input("Ketik pesan Anda di sini"):
     # Tampilkan pesan user
     st.session_state.messages.append({"role": "user", "content": prompt})
     with st.chat_message("user"):
