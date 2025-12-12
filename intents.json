@@ -2,12 +2,12 @@
   "intents": [
     {
       "tag": "salam",
-      "patterns": ["Halo", "Hi", "Pagi", "Siang", "Malam", "Permisi", "Min", "P"],
-      "responses": ["Halo! Selamat datang di Toko Kami. Ada yang bisa dibantu?", "Hi! Silakan tanya seputar produk kami."]
+      "patterns": ["Halo", "Hi", "Pagi", "Siang", "Malam", "Permisi", "Min", "P", "Kak"],
+      "responses": ["Halo! Selamat datang di Toko Kami. Ada yang bisa dibantu?", "Hi! Silakan tanya seputar produk kami.", "Gimana kak?"]
     },
     {
       "tag": "stok",
-      "patterns": ["Apakah barang ini ready?", "Stok masih ada?", "Apakah tersedia?", "Barang ini ada warna apa aja?"],
+      "patterns": ["Apakah barang ini ready?", "Stok masih ada?", "Apakah tersedia?", "Barang ini ada warna apa aja?", "Detailnya seperti apa kak?", "Harganya berapa kak?"],
       "responses": ["Barang ready stock siap kirim, Kak!", "Stok tersedia dalam berbagai ukuran dan warna."]
     },
     {
@@ -22,7 +22,7 @@
     },
     {
       "tag": "terimakasih",
-      "patterns": ["Makasih", "Thanks", "Terima kasih infonya", "Oke makasih min"],
+      "patterns": ["Makasih", "Thanks", "Terima kasih infonya", "Oke makasih min", "Makasih kak"],
       "responses": ["Sama-sama! Ditunggu orderannya ya.", "Senang bisa membantu!"]
     }
   ]
