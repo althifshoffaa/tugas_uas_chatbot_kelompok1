@@ -12,6 +12,8 @@ Dibuat untuk memenuhi tugas UAS Mata Kuliah Pengantar Kecerdasan Buatan.
 * **Cek Stok:** Menjawab pertanyaan ketersediaan barang.
 * **Cek Ongkir:** Estimasi pengiriman.
 * **Info Pembayaran:** Metode pembayaran yang tersedia.
+* **Info Harga dan Promo:** Informasi harga produk dan potongan harga.
+* **Info Retur dan Pengembalian:** Prosedur pengembalian produk dan pengembalian dana.
 
 ## Cara Menjalankan
 1. Install library:
