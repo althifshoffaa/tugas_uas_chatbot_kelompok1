@@ -16,6 +16,31 @@
       "responses": ["Perkiraan ketersediaan stok akan diinformasikan setelah proses restock.", "Ditunggu ya kak, kami akan me-restock barang secepatnya"]
     },
     {
+      "tag": "real_picture",
+      "patterns": ["Ini foto asli?", "Ada foto realpict-nya?", "Barangnya sama kayak di foto?", "Minta foto asli dong", "Warna aslinya sama gak?"],
+      "responses": ["Semua foto yang tertera adalah **Real Picture** hasil pemotretan tim kami sendiri, Kak. Akurasi warna 95% karena pengaruh cahaya layar HP masing-masing.", "Tenang Kak, barang yang dikirim dijamin 100% sama dengan yang ada di foto. Silakan cek ulasan pembeli lain untuk testimoni aslinya."]
+    },
+    {
+      "tag": "tren_fashion",
+      "patterns": ["Tren fashion sekarang apa?", "Gaya yang lagi hits apa kak?", "Lagi musim baju apa ya?", "Model baju terbaru 2025", "Fashion kekinian", "Lagi trend apa?", "Style yang lagi viral", "Baju yang lagi rame dipakai orang", "Trend baju sekarang", "Outfit kekinian", "Rekomendasi OOTD."],
+      "responses": ["Saat ini gaya *Old Money* yang elegan dan *Streetwear* minimalis lagi hits banget, Kak!", "Tren sekarang lebih ke arah warna-warna *earth tone* (seperti sage, sand, terracotta) dan potongan *oversized*.", "Gaya retro tahun 90-an seperti *baggy pants*, *varsity jacket*, dan *crop top* lagi kembali populer nih!", "Tahun ini trennya lebih ke 'Quiet Luxury', jadi pakaian tanpa logo besar tapi punya potongan yang rapi dan premium."]
+    },
+    {
+      "tag": "fashion_pria",
+      "patterns": ["Cowok bagusnya pakai apa?", "Trend baju pria 2025", "Style cowok kekinian", "Baju cowok yang lagi hits", "Outfit pria simpel keren", "Gaya cowok kalem"],
+      "responses": ["Untuk pria, gaya *Clean Fit* dengan kemeja flanel atau kaos polos dipadu celana chino lagi favorit banget, Kak.", "Cobain gaya *Earth Tone*, perpaduan warna cokelat, krem, dan hijau army bikin tampilan cowok kelihatan lebih dewasa."]
+    },
+    {
+      "tag": "fashion_wanita",
+      "patterns": ["Baju cewek yang lagi trend", "Style wanita kekinian", "OOTD hijab hits", "Trend baju wanita 2025", "Gaya cewek mamba", "Gaya cewek bumi", "Outfit wanita yang lagi viral"],
+      "responses": ["Sekarang lagi musim *Blazer oversized* atau *Cardigan rajut* yang dipadukan dengan *Wide leg pants*, Kak!", "Buat yang berhijab, gaya minimalis dengan warna-warna pastel atau 'Cewek Bumi' masih jadi primadona."]
+    },
+    {
+      "tag": "ukuran_pakaian",
+      "patterns": ["Ukuran bajunya apa aja?", "Ada size apa aja kak?", "Size chartnya mana?", "Minta tabel ukuran dong", "Gimana cara pilih ukuran yang pas?", "Pilihan sizenya apa aja?", "Detail size tiap ukuran", "LD nya berapa min?", "Berapa lebar dadanya?", "BB 50 pakai ukuran apa ya?", "BB 60kg ukurannya apa?", "Saran ukuran buat tinggi 170cm"],
+      "responses": ["Kami menyediakan ukuran S, M, L, XL, hingga XXL. Detail lengkap (Lingkar Dada & Panjang) bisa Kakak lihat di Tabel Ukuran pada foto produk slide terakhir ya!", "Untuk panduan umum berdasarkan Berat Badan: BB 45-55kg (S), 55-65kg (M), 65-75kg (L), 75-85kg (XL), 85kg+ (XXL). Namun, sebaiknya tetap pastikan dengan mengukur LD Kakak.", "Saran kami, ukur lebar dada baju yang paling nyaman Kakak pakai di rumah, lalu cocokkan dengan size chart kami agar hasilnya 100% akurat."]
+    },
+    {
       "tag":  "harga",
       "patterns": ["Harganya berapa kak?", "Berapa harga produk ini?", "Apakah harga sudah termasuk pajak?"],
       "responses": ["Harga produk tertera pada halaman produk dan sudah termasuk pajak.", "Ya, harga yang tertera sudah termasuk pajak sesuai ketentuan."]
@@ -37,8 +62,8 @@
     },
     {
     "tag": "retur dan pengembalian",
-    "patterns": ["Apakah produk bisa dikembalikan?", "Bagaimana cara mengajukan pengembalian dana?", "Berapa lama proses pengembalian?"],
-    "responses": ["Pengembalian dapat dilakukan sesuai dengan syarat dan ketentuan yang berlaku.", "Pengajuan pengembalian dana dapat dilakukan melalui layanan pelanggan dengan melampirkan bukti pendukung.", "Proses pengembalian membutuhkan waktu tertentu setelah retur diterima dan diverifikasi."]
+    "patterns": ["Apakah produk bisa dikembalikan?", "Bagaimana cara mengajukan pengembalian?", "Barang yang dikirim salah", "Salah kirim warna min", "Barang cacat nih kak", "Ukuran gak pas bisa tukar?", "Syarat retur apa aja?", "Prosedur tukar barang", "Berapa lama proses pengembalian?"],
+    "responses": ["Pengembalian dapat dilakukan sesuai dengan syarat dan ketentuan yang berlaku.", "Pengajuan pengembalian dapat dilakukan melalui layanan pelanggan dengan melampirkan bukti pendukung.", "Proses pengembalian membutuhkan waktu tertentu setelah retur diterima dan diverifikasi.", "Tentu bisa, Kak! Kami menerima retur jika barang cacat, salah kirim warna/ukuran, atau tidak sesuai pesanan. Mohon siapkan **video unboxing** sebagai syarat utama ya.", "Prosedur dan syarat retur: 1. Maksimal 2 hari setelah barang diterima. 2. Tag merk masih terpasang. 3. Baju belum dicuci. 4. Ada video unboxing tanpa jeda."]
     },
     {
       "tag": "terimakasih",
