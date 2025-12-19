@@ -13,7 +13,7 @@ lemmatizer = WordNetLemmatizer()
 # 1. KONFIGURASI TAMPILAN & WARNA (MODIFIKASI)
 # ==========================================
 st.set_page_config(
-    page_title="Shoffle - CS Otomatis", 
+    page_title="SHOFFLE - CS Otomatis", 
     page_icon="🛍️",
     layout="centered"
 )
@@ -39,7 +39,7 @@ st.markdown("""
 # --- SIDEBAR (MODIFIKASI) ---
 with st.sidebar:
     st.image("https://cdn-icons-png.flaticon.com/512/3081/3081559.png", width=100)
-    st.header("Shoffle")
+    st.header("SHOFFLE")
     st.write("Solusi fashion kekinian terbaik untuk Anda.")
     st.divider()
     st.info("📅 Jam Operasional:\n\nSenin - Jumat: 08.00 - 17.00")
