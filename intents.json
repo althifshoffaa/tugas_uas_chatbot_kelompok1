@@ -12,17 +12,17 @@
     },
     {
       "tag": "restok",
-      "patterns": ["Kapan produk ini akan tersedia kembali?", "Restok lagi kapan kak?", "Barangnya ada lagi kapan ya kak?"]
+      "patterns": ["Kapan produk ini akan tersedia kembali?", "Restok lagi kapan kak?", "Barangnya ada lagi kapan ya kak?"],
       "responses": ["Perkiraan ketersediaan stok akan diinformasikan setelah proses restock.", "Ditunggu ya kak, kami akan me-restock barang secepatnya"]
     },
     {
-      "tag":  "harga dan promo",
+      "tag":  "harga",
       "patterns": ["Harganya berapa kak?", "Berapa harga produk ini?", "Apakah harga sudah termasuk pajak?"],
       "responses": ["Harga produk tertera pada halaman produk dan sudah termasuk pajak.", "Ya, harga yang tertera sudah termasuk pajak sesuai ketentuan."]
     },
     {
       "tag": "promo",
-      "patterns": ["Apakah ada diskon atau promo?", "Apakah tersedia potongan harga?", "Bagaimana cara menggunakan kode promo?"]
+      "patterns": ["Apakah ada diskon atau promo?", "Apakah tersedia potongan harga?", "Bagaimana cara menggunakan kode promo?"],
       "responses": ["Saat ini tersedia promo tertentu yang dapat Anda lihat pada halaman promosi.", "Potongan harga tersedia pada periode promo tertentu dan dapat dilihat di halaman promosi.", "Kode promo dapat dimasukkan pada kolom yang tersedia saat proses pembayaran."]
     },
     {
