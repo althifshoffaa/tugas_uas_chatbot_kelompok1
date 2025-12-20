@@ -3,17 +3,17 @@
     {
       "tag": "salam",
       "patterns": ["Halo", "Hi", "Pagi", "Siang", "Malam", "Permisi", "Min", "P", "Kak"],
-      "responses": ["Halo! Selamat datang di Toko Kami. Ada yang bisa dibantu?", "Hi! Silakan tanya seputar produk kami.", "Selamat datang. Terima kasih telah menghubungi kami. Silakan sampaikan kebutuhan Anda."]
+      "responses": ["Halo! Selamat datang di Toko Kami. Ada yang bisa dibantu?", "Hi! Silakan tanya seputar produk kami.", "Selamat datang. Terima kasih telah menghubungi kami. Silakan sampaikan kebutuhan Anda.", "Silahkan kak, ada yang bisa kami bantu?"]
     },
     {
       "tag": "stok",
-      "patterns": ["Apakah barang ini ready?", "Stok masih ada?", "Apakah tersedia?", "Barang ini ada warna apa aja?", "Apakah produk ini original?"],
-      "responses": ["Barang ready stock siap kirim, Kak!", "Stok tersedia dalam berbagai ukuran dan warna.", "Ya, semua produk yang kami jual dijamin original."]
+      "patterns": ["Apakah barang ini ready?", "Stok masih ada?", "Apakah tersedia?", "Barang ini ada warna apa aja?", "Apakah produk ini original?","Produknya masih ada nggak?"],
+      "responses": ["Barang ready stock siap kirim, Kak!", "Stok tersedia dalam berbagai ukuran dan warna.", "Ya, semua produk yang kami jual dijamin original.", "Masih kak."]
     },
     {
       "tag": "restok",
       "patterns": ["Kapan produk ini akan tersedia kembali?", "Restok lagi kapan kak?", "Kapan restok kak?"],
-      "responses": ["Perkiraan ketersediaan stok akan diinformasikan setelah proses restock.", "Ditunggu ya kak, kami akan me-restock barang secepatnya"]
+      "responses": ["Perkiraan ketersediaan stok akan diinformasikan setelah proses restock.", "Ditunggu ya kak, kami akan me-restock barang secepatnya", "Mungkin sekitar beberapa hari lagi kak."]
     },
     {
       "tag": "real_picture",
