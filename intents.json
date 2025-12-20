@@ -17,7 +17,7 @@
     },
     {
       "tag": "real_picture",
-      "patterns": ["Ini foto asli?", "Ada foto realpict-nya?", "Asli seperti di foto nggak kak?", "Minta foto asli dong", "Warna aslinya sama gak?"],
+      "patterns": ["Ini foto asli?", "Ada foto realpict-nya?", "Asli seperti di foto nggak kak?", "Minta foto asli dong", "Warna aslinya sama gak?", "Bahannya apa?"],
       "responses": ["Semua foto yang tertera adalah **Real Picture** hasil pemotretan tim kami sendiri, Kak. Akurasi warna 95% karena pengaruh cahaya layar HP masing-masing.", "Tenang Kak, barang yang dikirim dijamin 100% sama dengan yang ada di foto. Silakan cek ulasan pembeli lain untuk testimoni aslinya."]
     },
     {
