@@ -18,7 +18,6 @@ st.set_page_config(
     layout="centered"
 )
 
-# Menambahkan CSS untuk mengubah warna tanpa file eksternal
 st.markdown("""
     <style>
     /* Mengubah warna latar belakang utama */
@@ -36,7 +35,6 @@ st.markdown("""
     </style>
     """, unsafe_allow_html=True)
 
-# --- SIDEBAR (MODIFIKASI) ---
 with st.sidebar:
     st.image("https://cdn-icons-png.flaticon.com/512/3081/3081559.png", width=100)
     st.header("SHOFFLE")
@@ -93,7 +91,7 @@ def get_response(tag, intents_json):
 # ==========================================
 # 4. LOGIKA CHAT (KODE ASLI DENGAN IKON BARU)
 # ==========================================
-st.title("Shoffle")
+st.title("SHOFFLE")
 st.write("Silakan tanya stok, pengiriman, pembayaran, atau informasi promo.")
 
 # Simpan riwayat chat
@@ -120,7 +118,6 @@ if prompt := st.chat_input("Ketik pesan Anda di sini"):
     except Exception as e:
         response = "Maaf, saya belum paham. Coba gunakan kata lain ya."
 
-    # Tampilkan balasan bot dengan Avatar (MODIFIKASI)
     with st.chat_message("assistant", avatar="🤖"):
         st.markdown(response)
     st.session_state.messages.append({"role": "assistant", "content": response})
