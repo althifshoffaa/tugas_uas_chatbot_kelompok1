@@ -2,7 +2,7 @@
   "intents": [
     {
       "tag": "salam",
-      "patterns": ["Halo", "Hi", "Pagi", "Siang", "Malam", "Permisi", "Min", "P", "Kak"],
+      "patterns": ["Halo", "Hi", "Pagi", "Siang", "Malam", "Permisi", "Min", "P", "Kak", "Hai"],
       "responses": ["Halo! Selamat datang di Toko Kami. Ada yang bisa dibantu?", "Hi! Silakan tanya seputar produk kami.", "Selamat datang. Terima kasih telah menghubungi kami. Silakan sampaikan kebutuhan Anda.", "Silahkan kak, ada yang bisa kami bantu?"]
     },
     {
