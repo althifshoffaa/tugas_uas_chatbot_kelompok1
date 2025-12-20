@@ -7,7 +7,7 @@
     },
     {
       "tag": "stok",
-      "patterns": ["Apakah barang ini ready?", "Stok masih ada?", "Apakah tersedia?", "Barang ini ada warna apa aja?", "Apakah produk ini original?","Produknya masih ada nggak?"],
+      "patterns": ["Apakah barang ini ready?", "Stok masih ada?", "Apakah tersedia?", "Barang ini ada warna apa aja?", "Apakah produk ini original?","Produknya masih ada nggak?", "Apakah produk ini available?"],
       "responses": ["Barang ready stock siap kirim, Kak!", "Stok tersedia dalam berbagai ukuran dan warna.", "Ya, semua produk yang kami jual dijamin original.", "Masih kak."]
     },
     {
