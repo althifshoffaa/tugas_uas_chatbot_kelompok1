@@ -37,7 +37,7 @@
     },
     {
       "tag": "ukuran_pakaian",
-      "patterns": ["Ukuran bajunya apa aja?", "Ada size apa aja kak?", "Size chartnya mana?", "Minta tabel ukuran dong", "Gimana cara pilih ukuran yang pas?", "Pilihan sizenya apa aja?", "Detail size tiap ukuran", "LD nya berapa min?", "Berapa lebar dadanya?", "BB 50 pakai ukuran apa ya?", "BB 60kg ukurannya apa?", "Saran ukuran buat tinggi 170cm"],
+      "patterns": ["Ukuran bajunya apa aja?", "Ada size apa aja kak?", "Size chartnya mana?", "Minta tabel ukuran dong", "Gimana cara pilih ukuran yang pas?", "Pilihan sizenya apa aja?", "Detail size tiap ukuran", "LD nya berapa min?", "Berapa lebar dadanya?", "BB 50 pakai ukuran apa ya?", "BB 60kg ukurannya apa?", "Saran ukuran buat tinggi 170cm", "Saran buat BB 45kg kak"],
       "responses": ["Kami menyediakan ukuran S, M, L, XL, hingga XXL. Detail lengkap (Lingkar Dada & Panjang) bisa Kakak lihat di Tabel Ukuran pada foto produk slide terakhir ya!", "Untuk panduan umum berdasarkan Berat Badan: BB 45-55kg (S), 55-65kg (M), 65-75kg (L), 75-85kg (XL), 85kg+ (XXL). Namun, sebaiknya tetap pastikan dengan mengukur LD Kakak.", "Saran kami, ukur lebar dada baju yang paling nyaman Kakak pakai di rumah, lalu cocokkan dengan size chart kami agar hasilnya 100% akurat."]
     },
     {
