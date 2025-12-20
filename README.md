@@ -9,7 +9,7 @@ Proyek ini dibuat untuk memenuhi tugas UAS Mata Kuliah Pengantar Kecerdasan Buat
   <video src="https://github.com/user-attachments/assets/fab9d7d8-c1db-449c-8b4a-f5864b82b5f3" controls="controls" style="max-width: 80%; border-radius: 10px;">
     Your browser does not support the video tag.
   </video>
-  <p><i>Cuplikan interaksi Chatbot Shoffle dalam melayani pelanggan secara real-time.</i></p>
+  <p><i>Cuplikan interaksi Chatbot SHOFFLE dalam melayani pelanggan secara real-time.</i></p>
 </div>
 
 ## Anggota Kelompok
