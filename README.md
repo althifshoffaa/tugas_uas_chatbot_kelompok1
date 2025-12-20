@@ -1,6 +1,7 @@
 # Chatbot E-Commerce (Tugas UAS)
 Proyek ini adalah Chatbot cerdas untuk melayani pelanggan toko online secara otomatis.
-Dibuat untuk memenuhi tugas UAS Mata Kuliah Pengantar Kecerdasan Buatan.
+Proyek ini dibuat untuk memenuhi tugas UAS Mata Kuliah Pengantar Kecerdasan Buatan.
+
 <img width="1054" height="580" alt="Screenshot SHOFFLE" src="https://github.com/user-attachments/assets/62f9f904-8a49-4893-9a99-6afc6d1fb754" />
 
 ## Demo Aplikasi
@@ -17,7 +18,7 @@ Dibuat untuk memenuhi tugas UAS Mata Kuliah Pengantar Kecerdasan Buatan.
 3. Althif Shoffa Hidayatina (M0125029)
 
 ## Fitur Utama Chatbot Shoffle
-Chatbot ini dirancang untuk memberikan pengalaman berbelanja yang responsif. Berikut adalah rincian fitur yang tersedia:
+Chatbot ini dirancang untuk memberikan pengalaman berbelanja yang responsif, dengan rincian fitur yang tersedia yaitu:
 | Kategori Fitur | Nama Fitur | Deskripsi Singkat |
 | :--- | :--- | :--- |
 | **Layanan Dasar** | **Greeting & Closing** | Menangani sapaan awal dan ucapan terima kasih dengan bahasa yang ramah. |
