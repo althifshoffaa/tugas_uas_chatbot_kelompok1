@@ -23,14 +23,14 @@ Chatbot ini dirancang untuk memberikan pengalaman berbelanja yang responsif, den
 | :--- | :--- | :--- |
 | **Layanan Dasar** | **Greeting & Closing** | Menangani sapaan awal dan ucapan terima kasih dengan bahasa yang ramah. |
 | **Produk** | **Manajemen Stok** | Memberikan informasi mengenai ketersediaan barang, keaslian produk (original), dan jadwal *restock*. |
-| | **Verifikasi Produk** | Meyakinkan pelanggan melalui konfirmasi bahwa foto produk adalah *Real Picture* (foto asli). |
-| **Fashion & Style** | **Rekomendasi Tren** | Memberikan saran gaya kekinian . |
-| | **Gender Style** | Memberikan rekomendasi OOTD spesifik untuk Pria dan Wanita . |
-| **Ukuran (Sizing)** | **Size Consultant** | Membantu menentukan ukuran (S-XXL) berdasarkan berat badan, tinggi badan, dan lingkar dada . |
-| **Transaksi** | **Informasi Harga** | Memberikan rincian harga produk . |
-| | **Sistem Promo** | Menjelaskan ketersediaan diskon dan cara penggunaan kode promo saat pembayaran . |
+| | **Verifikasi Produk** | Meyakinkan pelanggan melalui konfirmasi bahwa foto produk adalah *real picture* (foto asli). |
+| **Fashion & Style** | **Rekomendasi Tren** | Memberikan saran gaya yang kekinian. |
+| | **Gender Style** | Memberikan rekomendasi OOTD spesifik untuk pria dan wanita. |
+| **Ukuran (Sizing)** | **Size Consultant** | Membantu menentukan ukuran (S-XXL) berdasarkan berat badan, tinggi badan, dan lingkar dada. |
+| **Transaksi** | **Informasi Harga** | Memberikan rincian harga produk. |
+| | **Sistem Promo** | Menjelaskan ketersediaan diskon dan cara penggunaan kode promo saat pembayaran. |
 | | **Metode Bayar** | Menginformasikan pilihan pembayaran via Transfer Bank atau E-Wallet (tanpa sistem COD). |
-| **Operasional** | **Logistik** | Memberikan estimasi waktu pengiriman, pilihan jasa ekspedisi (JNE/J&T), dan info resi . |
+| **Operasional** | **Logistik** | Memberikan estimasi waktu pengiriman, pilihan jasa ekspedisi (JNE/J&T), dan info resi. |
 | | **Kebijakan Retur** | Menjelaskan syarat penukaran barang cacat/salah kirim . |
 
 ## Struktur Folder Proyek
@@ -38,7 +38,7 @@ Berikut adalah penjelasan mengenai file-file utama yang ada dalam repositori ini
 | Nama File / Folder | Deskripsi |
 | :--- | :--- |
 | `app.py` | File utama yang berfungsi untuk menjalankan antarmuka pengguna (UI) menggunakan framework **Streamlit**. |
-| `train_bot.py` | Skrip Python yang digunakan untuk mengolah data dan melatih model AI (*Neural Network*). |
+| `train_bot.py` | *Script* Python yang digunakan untuk mengolah data dan melatih model AI (*Neural Network*). |
 | `intents.json` | Basis pengetahuan chatbot yang berisi kumpulan *tags*, *patterns*, dan *responses*. |
 | `requirements.txt` | Daftar *library* Python yang wajib diinstal agar aplikasi dapat berjalan (Dependencies). |
 
