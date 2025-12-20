@@ -6,11 +6,10 @@ import numpy as np
 import nltk
 from nltk.stem import WordNetLemmatizer
 
-# Inisialisasi
 lemmatizer = WordNetLemmatizer()
 
 # ==========================================
-# 1. KONFIGURASI TAMPILAN & WARNA (MODIFIKASI)
+# 1. KONFIGURASI TAMPILAN & WARNA
 # ==========================================
 st.set_page_config(
     page_title="SHOFFLE - CS Otomatis", 
@@ -38,7 +37,7 @@ st.markdown("""
 with st.sidebar:
     st.image("https://cdn-icons-png.flaticon.com/512/3081/3081559.png", width=100)
     st.header("SHOFFLE")
-    st.write("Solusi fashion kekinian terbaik untuk Anda.")
+    st.write("Solusi fashion kekinian terbaik untuk Anda!")
     st.divider()
     st.info("📅 Jam Operasional:\n\nSenin - Jumat: 08.00 - 17.00")
     
@@ -59,7 +58,7 @@ except FileNotFoundError:
     st.stop()
 
 # ==========================================
-# 3. FUNGSI OTAK BOT (KODE ASLI)
+# 3. FUNGSI OTAK BOT 
 # ==========================================
 def clean_up_sentence(sentence):
     sentence_words = nltk.word_tokenize(sentence)
