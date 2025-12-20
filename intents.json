@@ -12,12 +12,12 @@
     },
     {
       "tag": "restok",
-      "patterns": ["Kapan produk ini akan tersedia kembali?", "Restok lagi kapan kak?", "Barangnya ada lagi kapan ya kak?"],
+      "patterns": ["Kapan produk ini akan tersedia kembali?", "Restok lagi kapan kak?", "Kapan restok kak?"],
       "responses": ["Perkiraan ketersediaan stok akan diinformasikan setelah proses restock.", "Ditunggu ya kak, kami akan me-restock barang secepatnya"]
     },
     {
       "tag": "real_picture",
-      "patterns": ["Ini foto asli?", "Ada foto realpict-nya?", "Barangnya sama kayak di foto?", "Minta foto asli dong", "Warna aslinya sama gak?"],
+      "patterns": ["Ini foto asli?", "Ada foto realpict-nya?", "Asli seperti di foto nggak kak?", "Minta foto asli dong", "Warna aslinya sama gak?"],
       "responses": ["Semua foto yang tertera adalah **Real Picture** hasil pemotretan tim kami sendiri, Kak. Akurasi warna 95% karena pengaruh cahaya layar HP masing-masing.", "Tenang Kak, barang yang dikirim dijamin 100% sama dengan yang ada di foto. Silakan cek ulasan pembeli lain untuk testimoni aslinya."]
     },
     {
@@ -47,8 +47,8 @@
     },
     {
       "tag": "promo",
-      "patterns": ["Apakah ada diskon atau promo?", "Apakah tersedia potongan harga?", "Bagaimana cara menggunakan kode promo?"],
-      "responses": ["Saat ini tersedia promo tertentu yang dapat Anda lihat pada halaman promosi.", "Potongan harga tersedia pada periode promo tertentu dan dapat dilihat di halaman promosi.", "Kode promo dapat dimasukkan pada kolom yang tersedia saat proses pembayaran."]
+      "patterns": ["Apakah ada diskon atau promo?", "Apakah tersedia potongan diskon?", "Bagaimana cara menggunakan kode promo?"],
+      "responses": ["Saat ini tersedia promo tertentu yang dapat Anda lihat pada halaman promosi.", "Diskon tersedia pada periode promo tertentu dan dapat dilihat di halaman promosi.", "Kode promo dapat dimasukkan pada kolom yang tersedia saat proses pembayaran."]
     },
     {
       "tag": "pengiriman",
@@ -57,7 +57,7 @@
     },
     {
       "tag": "pembayaran",
-      "patterns": ["Bisa COD?", "Bayar pakai apa?", "Nerima transfer bank?", "Cara bayarnya gimana?", "Metode pembayaran apa saja yang tersedia?"],
+      "patterns": ["Bisa COD?", "Bayar pakai apa?", "Menerima transfer bank?", "Cara bayarnya gimana?", "Metode pembayaran apa saja yang tersedia?"],
       "responses": ["Kami menerima pembayaran via Transfer Bank (BCA/Mandiri) dan E-Wallet (GoPay/OVO).", "Mohon maaf saat ini belum bisa COD."]
     },
     {
