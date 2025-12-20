@@ -31,19 +31,19 @@ Chatbot ini dirancang untuk memberikan pengalaman berbelanja yang responsif dan 
 | | **Sistem Promo** | Menjelaskan ketersediaan diskon dan cara penggunaan kode promo saat pembayaran. |
 | | **Metode Bayar** | Menginformasikan pilihan pembayaran via Transfer Bank atau E-Wallet (tanpa sistem COD). |
 | **Operasional** | **Logistik** | Memberikan estimasi waktu pengiriman, pilihan jasa ekspedisi (JNE/J&T), dan info resi. |
-| | **Kebijakan Retur** | Menjelaskan syarat penukaran barang cacat/salah kirim . |
+| | **Kebijakan Retur** | Menjelaskan syarat penukaran barang cacat/salah kirim. |
 
 ## Struktur Folder Proyek
 Berikut adalah penjelasan mengenai file-file utama yang ada dalam repositori ini:
 | Nama File / Folder | Deskripsi |
 | :--- | :--- |
-| `app.py` | File utama yang berfungsi untuk menjalankan antarmuka pengguna (UI) menggunakan framework **Streamlit**. |
+| `app.py` | File utama yang berfungsi untuk menjalankan antarmuka pengguna (UI) menggunakan *framework* **Streamlit**. |
 | `train_bot.py` | *Script* Python yang digunakan untuk mengolah data dan melatih model AI (*Neural Network*). |
 | `intents.json` | Basis pengetahuan chatbot yang berisi kumpulan *tags*, *patterns*, dan *responses*. |
-| `requirements.txt` | Daftar *library* Python yang wajib diinstal agar aplikasi dapat berjalan (Dependencies). |
+| `requirements.txt` | Daftar *library* Python yang wajib diinstal agar aplikasi dapat berjalan (*Dependencies*). |
 
 ## Cara Menjalankan
-1. Install library:
+1. *Install library*:
    ```bash
    pip install scikit-learn nltk streamlit
 2. Latih model
