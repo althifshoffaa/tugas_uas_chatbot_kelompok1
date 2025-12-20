@@ -92,7 +92,7 @@ def get_response(tag, intents_json):
 # 4. LOGIKA CHAT (KODE ASLI DENGAN IKON BARU)
 # ==========================================
 st.title("SHOFFLE")
-st.write("Silakan tanya stok, pengiriman, pembayaran, atau informasi promo.")
+st.write("Silakan tanya mengenai stok, pengiriman, pembayaran, atau informasi promo.")
 
 # Simpan riwayat chat
 if "messages" not in st.session_state:
