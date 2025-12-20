@@ -5,16 +5,13 @@ import nltk
 from nltk.stem import WordNetLemmatizer
 from sklearn.ensemble import RandomForestClassifier
 
-# --- BAGIAN INI SAYA UPDATE ---
-# Mendownload semua data bahasa yang dibutuhkan
 try:
     nltk.download('punkt')
-    nltk.download('punkt_tab') # <--- INI OBATNYA
+    nltk.download('punkt_tab') 
     nltk.download('wordnet')
     nltk.download('omw-1.4')
 except:
     pass
-# -----------------------------
 
 lemmatizer = WordNetLemmatizer()
 
@@ -42,14 +39,12 @@ for intent in intents['intents']:
         if intent['tag'] not in classes:
             classes.append(intent['tag'])
 
-# Lemmatize (ubah ke kata dasar)
 words = [lemmatizer.lemmatize(w.lower()) for w in words if w not in ignore_words]
 words = sorted(list(set(words)))
 classes = sorted(list(set(classes)))
 
 print(f"Data siap: {len(documents)} kalimat training.")
 
-# Simpan kamus data
 pickle.dump(words, open('words.pkl', 'wb'))
 pickle.dump(classes, open('classes.pkl', 'wb'))
 
@@ -67,7 +62,6 @@ for doc in documents:
     
     training.append([bag, doc[1]])
 
-# Acak data
 import random
 random.shuffle(training)
 training = np.array(training, dtype=object)
@@ -80,6 +74,5 @@ print("Sedang melatih model...")
 model = RandomForestClassifier(n_estimators=100)
 model.fit(train_x, train_y)
 
-# Simpan model
 pickle.dump(model, open('chatbot_model.pkl', 'wb'))
 print("SUKSES! Model berhasil dibuat (chatbot_model.pkl)")
