@@ -24,7 +24,7 @@ Chatbot ini dirancang untuk memberikan pengalaman berbelanja yang responsif dan 
 | **Layanan Dasar** | **Greeting & Closing** | Menangani sapaan awal dan ucapan terima kasih dengan bahasa yang ramah. |
 | **Produk** | **Manajemen Stok** | Memberikan informasi mengenai ketersediaan barang, keaslian produk (*original*), dan jadwal *restock*. |
 | | **Verifikasi Produk** | Meyakinkan pelanggan melalui konfirmasi bahwa foto produk adalah *real picture* (foto asli). |
-| **Fashion & Style** | **Rekomendasi Tren** | Memberikan saran gaya yang kekinian. |
+| **Fashion & Style** | **Rekomendasi Tren** | Memberikan saran gaya pakaian yang kekinian. |
 | | **Gender Style** | Memberikan rekomendasi OOTD spesifik untuk pria dan wanita. |
 | **Ukuran (Sizing)** | **Size Consultant** | Membantu menentukan ukuran (S-XXL) berdasarkan berat badan, tinggi badan, dan lingkar dada. |
 | **Transaksi** | **Informasi Harga** | Memberikan rincian harga produk. |
