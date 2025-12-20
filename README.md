@@ -1,4 +1,4 @@
-# Chatbot E-Commerce (Tugas UAS)
+# Chatbot E-Commerce 
 Proyek ini adalah Chatbot cerdas untuk melayani pelanggan toko online secara otomatis.
 Proyek ini dibuat untuk memenuhi tugas UAS Mata Kuliah Pengantar Kecerdasan Buatan.
 
