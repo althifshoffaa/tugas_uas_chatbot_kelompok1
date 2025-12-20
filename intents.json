@@ -58,7 +58,7 @@
     {
       "tag": "pembayaran",
       "patterns": ["Bisa COD?", "Bayar pakai apa?", "Menerima transfer bank?", "Cara bayarnya gimana?", "Metode pembayaran apa saja yang tersedia?"],
-      "responses": ["Kami menerima pembayaran via Transfer Bank (BCA/Mandiri) dan E-Wallet (GoPay/OVO).", "Mohon maaf saat ini belum bisa COD."]
+      "responses": ["Kami menerima pembayaran via Transfer Bank (BRI/BCA/Mandiri) dan E-Wallet (GoPay/OVO).", "Mohon maaf saat ini belum bisa COD."]
     },
     {
     "tag": "retur dan pengembalian",
